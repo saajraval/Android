@@ -1,0 +1,30 @@
+Andriod in a linux based OS 
+works in mobile ,TV ,tablets , smart watch (wear OS), IOT 
+
+2004 thi iphone aayo che 
+2006 	
+Andriod 12 latest V 
+
+
+Andriod 5 or lower having less attractive UI 
+
+
+Coding will be done in andriod studio 
+earlier it was done in eclipse
+
+
+1 :SDK-> Software Development Kit => simi to JDK it provides environment -> Logical file extention is .java, Designing file -> .xml(Extensible markup lang.), DB will be SQL only for light weight 
+2.NDK(Native Development Kit)->Logical file extention .CPP=>Designing File => .xml 
+3. Kotlin ->Logical file extention .kt(c++,java,js)=>Designing File => .xml 
+
+ACTIVITY MANAGER -> Will hold the UI screen
+window		->  		mobile screen	
+Telephony 	-> all text and calls 
+content 	-> will fetch and provide the data 
+resouse		-> mp3,mp4
+view 		-> 
+
+
+indetail libc 
+
+

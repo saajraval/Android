@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+<!--match parent will match the text or anything with the whole screen -->
+<!--    wrap content will match with the default size -->
+    <TextView
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="serif"
+        android:text="Login"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/UserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Login"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@null"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="10sp"
+        android:hint="UserName"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:textColorHint="#fff" />
+    <!--    hint will work as placeholder-->
+<!--    imeOption will provide next action just like filling form in laptop we use tab-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/UserName"
+        android:background="@color/black"
+        android:layout_marginHorizontal="30dp">
+    </View>
+    <EditText
+        android:id="@+id/PassWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Login"
+        android:layout_marginTop="110dp"
+        android:layout_marginHorizontal="30dp"
+        android:padding="15dp"
+        android:hint="PassWord"
+        android:textColorHint="#fff"
+        android:imeOptions="actionNext"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="10sp"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:background="@null" />
+
+    <android.widget.Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/btn_bg"
+        android:text="Login"
+        android:textColor="#05DEFA" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/PassWord"
+        android:background="@color/black"
+        android:layout_marginHorizontal="30dp">
+    </View>
+
+</RelativeLayout>
