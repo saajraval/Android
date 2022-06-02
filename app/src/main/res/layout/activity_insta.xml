@@ -121,7 +121,6 @@
             android:layout_centerVertical="true"
             >
         </View>
-
     </RelativeLayout>
 
     <TextView
@@ -147,7 +146,6 @@
         android:padding="15dp"
         >
 
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -164,6 +162,6 @@
             android:text=" SignUp  "
             android:textColor="#fff"
             android:textStyle="bold" />
-
     </RelativeLayout>
+
 </RelativeLayout>

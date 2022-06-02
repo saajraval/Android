@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sc_view"
+    android:layout_below="@+id/relative_home1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".digitalHome">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/relative_home1"
+    android:background="@drawable/digihome"
+    >
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/img_homelogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/home_icon"
+        android:tint="#fff"
+        tools:ignore="UseAppTint">
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_digi"
+        android:layout_below="@+id/img_homelogo"
+        android:text="D i g i t a l"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="20dp"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_home"
+        android:layout_below="@+id/tv_digi"
+        android:text="HOME"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginBottom="100dp"
+        >
+    </TextView>
+</RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/relative_home2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relative_home1"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/tv_serv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="SERVICES"
+                android:textColor="#C967ED"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:id="@+id/tv_wel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_serv"
+                android:layout_marginLeft="25dp"
+                android:text="Welcome to digital home services "></TextView>
+
+            <RelativeLayout
+                android:id="@+id/rel_bulb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_wel"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/bg_bulb"
+                android:padding="40dp">
+
+                <ImageView
+                    android:id="@+id/img_bulb"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/bulb"
+                    app:tint="#fff">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_bulb"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:text="Energy"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel_bulb_sky2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rel_bulb"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@+id/rel_bulb"
+                android:background="@drawable/bg_bulb"
+                android:backgroundTint="#8BC34A"
+                android:padding="40dp">
+
+                <ImageView
+                    android:id="@+id/img_bulb_sky2"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/wifi_icon"
+                    app:tint="#fff"></ImageView>
+
+                <TextView
+                    android:id="@+id/_sky2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_bulb_sky2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="Entertain"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <!--        from here -->
+
+            <RelativeLayout
+                android:id="@+id/rel_bulb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rel_bulb"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/bg_bulb"
+                android:backgroundTint="#00BCD4"
+                android:padding="40dp">
+
+                <ImageView
+                    android:id="@+id/img_bulb3"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/water_tap"
+                    app:tint="#fff">
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_d3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_bulb3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="Water"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel_bulb_sky"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_wel"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@+id/rel_bulb"
+                android:background="@drawable/bg_bulb"
+                android:backgroundTint="#6A21BD"
+                android:padding="40dp">
+
+                <ImageView
+                    android:id="@+id/img_bulb_sky"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/snowflake_icon"
+                    app:tint="#fff"></ImageView>
+
+                <TextView
+                    android:id="@+id/_sky"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_bulb_sky"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:text="Tempreture"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+</RelativeLayout>
+
+</ScrollView>

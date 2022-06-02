@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApp">
         <activity
+            android:name=".Insta"
+            android:exported="false"/>
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
@@ -19,7 +22,7 @@
             android:name=".GreenLayout"
             android:exported="false" />
         <activity
-            android:name=".Insta"
+            android:name=".digitalHome"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
