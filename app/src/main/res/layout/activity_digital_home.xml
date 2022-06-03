@@ -73,7 +73,8 @@
                 android:layout_marginLeft="10dp"
                 android:text="SERVICES"
                 android:textColor="#C967ED"
-                android:textSize="20dp"></TextView>
+                android:textSize="20dp"
+                />
 
             <TextView
                 android:id="@+id/tv_wel"
@@ -81,8 +82,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tv_serv"
                 android:layout_marginLeft="25dp"
-                android:text="Welcome to digital home services "></TextView>
-
+                android:text="Welcome to digital home services "/>
             <RelativeLayout
                 android:id="@+id/rel_bulb"
                 android:layout_width="wrap_content"
@@ -136,7 +136,8 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="5dp"
                     android:src="@drawable/wifi_icon"
-                    app:tint="#fff"></ImageView>
+                    app:tint="#fff"
+                    />
 
                 <TextView
                     android:id="@+id/_sky2"
@@ -206,7 +207,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="5dp"
                     android:src="@drawable/snowflake_icon"
-                    app:tint="#fff"></ImageView>
+                    app:tint="#fff"/>
 
                 <TextView
                     android:id="@+id/_sky"
