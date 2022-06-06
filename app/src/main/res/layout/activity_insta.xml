@@ -46,15 +46,15 @@
         android:inputType="textPassword"/>
 
     <android.widget.Button
+        android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_login"
-        android:text="Login"
-        android:background="@drawable/insta_bg"
-        android:textColor="#fff"
         android:layout_below="@id/edt_password"
-        android:layout_marginTop="50dp"
         android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/insta_bg"
+        android:text="Login"
+        android:textColor="#fff"
 
         />
     <RelativeLayout

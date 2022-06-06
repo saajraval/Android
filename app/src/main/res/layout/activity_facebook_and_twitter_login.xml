@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".facebook_and_twitter_login"
+    android:background="@drawable/bg_ft"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signin"
+        android:text="Sign in"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_wel"
+        android:text="Welcome back!"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_via"
+        android:text="sign in via facebook or twitter"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="15dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/img_fb"
+        android:src="@drawable/fb_icon"
+        android:layout_marginRight="10dp"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_or"
+            android:textSize="30dp"
+            android:layout_marginTop="25dp"
+            android:text="or"
+            android:textColor="#fff"
+            android:layout_marginRight="10dp"
+        />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/img_twit"
+            android:src="@drawable/twitter_icon"
+        />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_acc_info"
+        android:text="or enter in your account info"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:layout_marginTop="40dp"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/line1"
+    android:background="@drawable/bg_white"
+    android:layout_marginHorizontal="30dp"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_user"
+        android:hint="username"
+        android:textColorHint="#000"
+        android:background="@null"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="10dp"
+        android:imeOptions="actionNext"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#474646"
+        >
+    </View>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_pass"
+        android:hint="password"
+        android:textColorHint="#000"
+        android:background="@null"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="10dp"
+        android:imeOptions="actionDone"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="30dp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_frgt"
+        android:text="Forgot your Password"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:gravity="left"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_need_acc"
+            android:text="Need an account?"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="right"
+            />
+    </LinearLayout>
+    <android.widget.Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_sign"
+        android:text="Sign in"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:padding="20dp"
+        android:textAllCaps="false"
+        android:background="#fff"
+        android:textSize="30dp"
+        >
+
+    </android.widget.Button>
+</LinearLayout>

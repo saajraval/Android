@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/drawable/bg.xml" value="0.227" />
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/drawable/bg_bulb.xml" value="0.1985" />
+        <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/drawable/bg_white.xml" value="0.1945" />
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/drawable/btn_bg.xml" value="0.143" />
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/drawable/digihome.xml" value="0.1985" />
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/drawable/etd.xml" value="0.227" />
@@ -13,6 +14,7 @@
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/drawable/inner_bg_green.xml" value="0.1985" />
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/drawable/insta_bg.xml" value="0.1985" />
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_digital_home.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_facebook_and_twitter_login.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_green_layout.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_insta.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_linear_login.xml" value="0.27447916666666666" />

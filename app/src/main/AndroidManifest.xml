@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApp">
         <activity
+            android:name=".facebook_and_twitter_login"
+            android:exported="false" />
+        <activity
             android:name=".LinearLogin"
             android:exported="false" />
         <activity
