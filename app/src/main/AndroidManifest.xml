@@ -10,25 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApp">
         <activity
+            android:name=".HomeSp"
+            android:exported="false" />
+        <activity
+            android:name=".lumia"
+            android:exported="false" />
+        <activity
             android:name=".facebook_and_twitter_login"
             android:exported="false" />
         <activity
             android:name=".LinearLogin"
             android:exported="false" />
         <activity
-            android:name=".Insta"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".lumia"
+            android:name=".digitalHome"
             android:exported="false" />
         <activity
             android:name=".GreenLayout"
             android:exported="false" />
         <activity
-            android:name=".digitalHome"
+            android:name=".Insta"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -8,28 +8,29 @@
     >
 
     <ImageView
+        android:id="@+id/img_logo"
         android:layout_width="200dp"
         android:layout_height="100dp"
-        android:id="@+id/img_logo"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/instagram"
         android:layout_marginTop="30dp"
+        android:src="@drawable/instagram"
 
         />
+
     <EditText
+        android:id="@+id/edt_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/edt_username"
         android:layout_below="@id/img_logo"
-        android:hint="Username"
-        android:textColorHint="#fff"
-        android:imeOptions="actionNext"
         android:layout_marginHorizontal="30dp"
+        android:background="#65FFFFFF"
+        android:hint="Username"
+        android:imeOptions="actionNext"
         android:inputType="textEmailAddress"
         android:padding="15dp"
         android:singleLine="true"
         android:textColor="#fff"
-        android:background="#65FFFFFF"/>
+        android:textColorHint="#fff" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

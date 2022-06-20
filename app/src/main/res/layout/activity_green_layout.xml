@@ -26,34 +26,99 @@
         android:layout_marginLeft="20dp"
         android:text="Login back to your account"
         android:textSize="20sp"
+        android:layout_marginBottom="60dp"
         />
-    <RelativeLayout
+
+    <LinearLayout
+        android:id="@+id/relative"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/relative"
         android:layout_below="@+id/ac"
-        android:layout_marginTop="60dp"
         android:layout_marginHorizontal="30dp"
-        android:padding="20dp"
-        android:background="@drawable/inner_bg_green">
+       android:paddingVertical="60dp"
+        android:background="@drawable/inner_bg_green"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp">
 
         <TextView
+            android:id="@+id/login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/login"
-            android:layout_marginTop="20dp"
-            android:text="login"
+            android:layout_marginVertical="20dp"
+            android:fontFamily="serif"
+            android:text="log In"
             android:textColor="#fff"
             android:textSize="30sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/edt_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/edt_email"
+            android:background="@drawable/edt_bg"
+            android:drawableLeft="@drawable/ic_person"
+            android:drawablePadding="10dp"
+            android:drawableTint="#ffff"
+            android:hint="UserName"
+            android:imeOptions="actionNext"
+            android:padding="14dp"
+            android:singleLine="true"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_below="@+id/login"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edt_bg"
+            android:drawableLeft="@drawable/ic_lock"
+            android:drawablePadding="10dp"
+            android:drawableTint="#ffff"
+            android:hint="Password"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:padding="14dp"
+            android:singleLine="true"
+            android:textColorHint="#fff" />
 
-            />
+        <TextView
+            android:id="@+id/tv_fp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginVertical="20dp"
+            android:text="forgot password?"
+            android:textColor="#fff" />
 
-    </RelativeLayout>
+        <android.widget.Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/etd"
+            android:padding="14dp"
+            android:text="Login" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/relative"
+        android:background="@drawable/inner_bg_dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="-60dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginHorizontal="30dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/person"/>
+    </LinearLayout>
 </RelativeLayout>
