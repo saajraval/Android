@@ -15,15 +15,29 @@
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/drawable/inner_bg_dp.xml" value="0.1945" />
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/drawable/inner_bg_green.xml" value="0.1985" />
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/drawable/insta_bg.xml" value="0.1985" />
+        <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_alertbox.xml" value="0.22530996152201796" />
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_digital_home.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_facebook_and_twitter_login.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_green_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_grid_display_activty.xml" value="0.21376656690893545" />
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_home_sp.xml" value="0.22530996152201796" />
+        <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_image_pick.xml" value="0.22530996152201796" />
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_insta.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_linear_login.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_lumia.xml" value="0.264" />
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_lumia2.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_seek_next.xml" value="0.21376656690893545" />
+        <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_seekbar.xml" value="0.22530996152201796" />
+        <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_simple_grid_view.xml" value="0.22530996152201796" />
+        <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_spinner.xml" value="0.11862835959221502" />
+        <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_spinner2.xml" value="0.22530996152201796" />
+        <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/activity_splash.xml" value="0.22530996152201796" />
+        <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/fragment_first.xml" value="0.22530996152201796" />
+        <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/fragment_second.xml" value="0.22530996152201796" />
+        <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/raw_grid.xml" value="0.22530996152201796" />
+        <entry key="..\:/Users/SR7/AndroidStudioProjects/MyFirstApp/app/src/main/res/layout/raw_grid_viewsend.xml" value="0.22445489525438223" />
+        <entry key="..\:/Users/SR7/AppData/Local/Android/Sdk/platforms/android-32/data/res/drawable/spinner_background.xml" value="0.1" />
       </map>
     </option>
   </component>

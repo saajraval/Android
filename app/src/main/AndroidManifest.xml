@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.myfirstapp">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +13,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApp">
+        <activity
+            android:name=".SimpleGridView"
+            android:exported="false" />
+        <activity
+            android:name=".GridDisplayActivty"
+            android:exported="false" />
+        <activity
+            android:name=".SpinnerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".seekbar"
+            android:exported="false" />
+        <activity
+            android:name=".seek_next"
+            android:exported="false" />
+        <activity
+            android:name=".Alertbox"
+            android:exported="false" />
+        <activity
+            android:name=".image_pick"
+            android:exported="false" />
+        <activity
+            android:name=".Insta"
+            android:exported="false" />
         <activity
             android:name=".HomeSp"
             android:exported="false" />
@@ -31,7 +59,7 @@
             android:name=".GreenLayout"
             android:exported="false" />
         <activity
-            android:name=".Insta"
+            android:name=".Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
